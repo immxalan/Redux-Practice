@@ -6,10 +6,13 @@ const initialState = {
 }
 
 //setup an empty reducer
-export const playerReducer = (state=initialState, action) => {
+const PlayerReducer = (state=initialState, action) => {
 switch(action.type){
     //setup swith, cases, and default
     default:
         return state
 }
 }
+
+//export the reducer
+export default PlayerReducer;
